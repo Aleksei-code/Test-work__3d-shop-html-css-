@@ -214,3 +214,11 @@
     font-style: italic;
 }
 
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('sf-pro-text-regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
