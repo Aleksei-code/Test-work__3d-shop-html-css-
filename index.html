@@ -14,14 +14,14 @@
     <div class="menu__top-inner">
     <div class="menu__top-box-left">
         <div class="menu__top-box-city">
-            <div class="menu__text-city">Санкт-Петербург</div>
-            <div class="menu__text-img"><img src="img/Vector.png" alt="" onclick=""></div>
-            <div class="menu-dropdown-panel" id="cities-dropdown" style="display: block">
+            <div class="menu__text-city" id="currentCity">Санкт-Петербург</div>
+            <div class="menu__text-img"><img src="img/Vector.png" alt="" onclick=(Abcd())></div>
+            <div class="menu-dropdown-panel" id="citiesDropdown" style = "display: none">
                <ul>
-                    <li class="menu__text-city">Челябинск</li>
-                    <li class="menu__text-city">Екатеринбург</li>
-                    <li class="menu__text-city">Санкт-Петербург</li>
-                    <li class="menu__text-city">Москва</li>
+                    <li id="chel" class="menu__text-city" onclick=(cityChange(id))>Челябинск</li>
+                    <li id="ekb" class="menu__text-city" onclick=(cityChange(id))>Екатеринбург</li>
+                    <li id="spb" class="menu__text-city" onclick=(cityChange(id))>Санкт-Петербург</li>
+                    <li id="msk" class="menu__text-city" onclick=(cityChange(id))>Москва</li>
                 </ul>
             </div>
         </div>
