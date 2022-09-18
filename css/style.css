@@ -236,8 +236,11 @@ width: 100%;
 height: 100%;
 }
 
+
 .main-search-box-text:focus {
 border: none !important;
+color: black;
+outline:none;
 }
 
 .text-red {
