@@ -49,3 +49,4 @@ function cityChange(id) {
   console.log (document.getElementById('currentCity').innerHTML)
   document.getElementById('currentCity').innerHTML = b
 }
+

@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/fonts/stylesheet.css">
+    <link rel="stylesheet" href="/css/slider.css">
     <script src="/js/main.js"></script>
+    <script src="/js/carousel.js"></script>
     <title>Top 3D Shop</title>
 </head>
 <div class="menu">
@@ -187,20 +189,52 @@
             </div>
         </div>
     </div>
-    <div class="video-about-us">
+    <div class="video-about-us" id="sliderMainBlock1" style="display: block">
         <div class="video-about-us__inner">
             <div class="video-about-us__text">
                 <div class="video-about-us__h3">Видео о нас</div>
                 <div class="video-about-us__text-arrows">
-                    <img src="img/Group 203.png" alt="">
-                    <img src="img/Group 204.png" alt="">
+                    <img src="img/Group 203.png" alt="" onclick=(carouselBack())>
+                    <img src="img/Group 204.png" alt="" onclick=(carouselForward())>
                 </div>
             </div>
             
-            <!-- <div class="video-about-us__youtube">
+            <div class="video-about-us__youtube">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/QMc1tNksFho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/hfKwkcG2tfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="video-about-us" id="sliderMainBlock2" style="display: none">
+        <div class="video-about-us__inner">
+            <div class="video-about-us__text">
+                <div class="video-about-us__h3">Видео о нас</div>
+                <div class="video-about-us__text-arrows">
+                    <img src="img/Group 203.png" alt="" onclick=(carouselBack())>
+                    <img src="img/Group 204.png" alt="" onclick=(carouselForward())>
+                </div>
+            </div>
+            
+            <div class="video-about-us__youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JNx_5m96JCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/46XjPVHFXzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="video-about-us" id="sliderMainBlock3" style="display: none">
+        <div class="video-about-us__inner">
+            <div class="video-about-us__text">
+                <div class="video-about-us__h3">Видео о нас</div>
+                <div class="video-about-us__text-arrows">
+                    <img src="img/Group 203.png" alt="" onclick=(carouselBack())>
+                    <img src="img/Group 204.png" alt="" onclick=(carouselForward())>
+                </div>
+            </div>
+            
+            <div class="video-about-us__youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/I2rvKALDcr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/D1y8r53cB4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 <body>
