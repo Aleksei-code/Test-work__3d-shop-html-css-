@@ -253,6 +253,20 @@ outline:none;
     align-items: inherit;
 }
 
+a {
+    color:inherit;
+    font-family:inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    align-items: inherit;
+}
+
+a .text-red-underline:hover {
+    color: black;
+}
+
 .main-cart {
 display: flex;
 box-sizing: border-box;

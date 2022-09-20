@@ -43,10 +43,7 @@ function Abcd (cssValue) {
 
 
 function cityChange(id) {
-  console.log (id);
   let b = document.getElementById(id).innerHTML;
-  console.log (b);
-  console.log (document.getElementById('currentCity').innerHTML)
   document.getElementById('currentCity').innerHTML = b
 }
 

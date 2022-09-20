@@ -1,0 +1,52 @@
+.menu__dropBar {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    border: rgb(207, 207, 207) 1px solid;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 102px;
+    box-shadow: 0px 8px 16px 0px rgba(129, 129, 129, 0.2);
+    z-index: 1;
+    top: 18px;
+    left: 1px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+
+.menu__dropBar-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    display:flex;
+}
+
+.menu__dropBar-links {
+    padding-right: 5px;
+    padding-left: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu__dropBar-links-outer {
+    display: flex;
+
+}
+
+.menu__dropBar-links-outer:hover .menu__dropBar {
+    display: block;
+}
+
+.menu__dropBar-links:hover {
+    background-color: #fd0;
+    transition: 1s;
+}
