@@ -37,7 +37,7 @@ var getCssStyle = function(elementId, cssProperty) {
 }
 
 
-function Abcd (cssValue) {
+function showMeYourCities () {
    getCssStyle ('citiesDropdown', 'display');
 }
 
